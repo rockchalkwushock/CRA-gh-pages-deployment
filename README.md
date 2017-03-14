@@ -66,5 +66,4 @@ GitHub 404's will be reached if traveling to:
 - 'https://username.github.io/onex'
 - 'https://username.github.io/one/x'
 
-Please keep in mind that the `<Router/>` is seeing
 > _**Please Note that any navigation back to the root path outside of the `<Router/>` must explicitly be stated in the same manner.**_
