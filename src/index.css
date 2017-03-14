@@ -3,3 +3,36 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.page404 {
+  align-items: center;
+  background-color: darkorange;
+  display: flex;
+  flex-direction: column;
+  font-size: 2em;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+}
+
+.button {
+  color: white;
+  background-color: black;
+  border-radius: 1em;
+  height: 10vh;
+  justify-content: center;
+  padding-top: 1.5em;
+  text-align: center;
+  width: 20vw;
+}
+
+ul {
+  border-bottom: 1px solid lightslategray;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+ul > * {
+  flex: 1 1 auto;
+}
