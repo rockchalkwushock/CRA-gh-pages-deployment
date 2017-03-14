@@ -53,12 +53,13 @@ Now when visiting the Github Pages link you will be directed to the root path's 
 
 ### Routing Tree for `<Router/>` vs Browser
 All subsequent _routes_ on the router will replace `/<project-name>/`:
+
 | Router  | Browser                                       |
 |---------|-----------------------------------------------|
-| '/'     | 'https://username.github.io/project-name/'    |
-| '/one'  | 'https://username.github.io/one'              |
-| '/two'  | 'https://username.github.io/two'              |
-| '*'     | 'https://username.github.io/project-name/<*>' |
+| `'/'`     | `'https://username.github.io/project-name/'`    |
+| `'/one'`  | `'https://username.github.io/one'`              |
+| `'/two'`  | `'https://username.github.io/two'`              |
+| `'*'`     | `'https://username.github.io/project-name/*'` |
 
 GitHub 404's will be reached if traveling to:
 - 'https://username.github.io/'
