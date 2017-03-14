@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+**Live Demo**: https://rockchalkwushock.github.io/CRA-gh-pages-deployment/
+
 ## Disclaimer
 You should read the section on [client-side-routing](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#notes-on-client-side-routing) in the `create-react-app` documentation for understanding why Github Pages does not play well with client-side-routing.
 
